@@ -49,6 +49,8 @@
 > cd generated/ref
 > composer install
 > php-api-gen -i ./apis/mof-application-api-2.2.0.yml
+> cd generated/mof
+> composer install
 ```
 
 ### Créer un module récupérant le token
