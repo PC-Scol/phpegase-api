@@ -1,14 +1,14 @@
 <?php
-require_once(__DIR__ .'/generated/mof/vendor/autoload.php');
+require_once(__DIR__ .'/vendor/autoload.php');
 require_once(__DIR__.'/authenticate.php');
 
 // Configure Bearer (JWT) authorization: idTokenAuth
-$configMof = OpenAPI\Client\Configuration::getDefaultConfiguration()
+$configMof = Pegase\MofClient\Configuration::getDefaultConfiguration()
     ->setAccessToken(getToken())
     ->setHost("https://mof.$env.pc-scol.fr/api/v1/mof");
 
 
-$mofExtractionClient = new OpenAPI\Client\Api\ExtractionsApi(
+$mofExtractionClient = new Pegase\MofClient\Api\ExtractionsApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
