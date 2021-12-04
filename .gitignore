@@ -1,3 +1,11 @@
 generated/
 apis/
 openapi-generator-cli.jar
+
+# IDE
+.vscode/
+
+/vendor/
+
+# conf
+conf.php

@@ -1,0 +1,24 @@
+{
+    "name": "pcscol/phpegase-api",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Arnaud Grausem",
+            "email": "arnaud.grausem@pc-scol.fr"
+        }
+    ],
+    "require": {
+        "pegase/ref-client": "@dev",
+        "pegase/mof-client": "@dev"
+    },
+    "repositories": {
+        "pegase-mof": {
+            "type": "path",
+            "url": "generated/pegase-mof"
+        },
+        "pegase-ref": {
+            "type": "path",
+            "url": "generated/pegase-ref"
+        }
+    }
+}
