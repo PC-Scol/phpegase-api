@@ -52,7 +52,7 @@ alias open-api-generator="java -jar $PWD/openapi-generator-cli.jar"
     - `open-api-generator --help`
     - `open-api-generator help generate`
     - `open-api-generator list` − [voir la documentation des générateurs disponibles](https://github.com/OpenAPITools/openapi-generator/blob/v5.3.0/docs/generators)
-    - `open-api-generator config-help -g python` − [voir la documentation des paramètres spécifiques à Python](https://github.com/OpenAPITools/openapi-generator/blob/v5.3.0/docs/generators/php.md)
+    - `open-api-generator config-help -g php` − [voir la documentation des paramètres spécifiques à PHP](https://github.com/OpenAPITools/openapi-generator/blob/v5.3.0/docs/generators/php.md)
 
 
 - Créer un alias pour faciliter la génération de clients php
